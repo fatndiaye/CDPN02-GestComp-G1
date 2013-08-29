@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body{
+	
+}
+
+table, th, td
+{
+border: 1px solid black;
+border-collapse:collapse;
+}	
+	
+
+#basdepage{
+	border-width: 2px; 
+	border-style: solid;
+	text-align: center;	
+	clear: both;
+	width: 100%;
+	
+}
+
+#mesinfos{
+	border-width: 2px; 
+	border-style: solid;
+	clear: both;
+	width: 100%;
+	
+}
+
+#mesprojets{
+	float : left;
+	border-width: 2px; 
+	border-style: solid;	
+	height : 10%;
+	width : 75%
+}
+
+#mespropositions{
+	border-width: 2px; 
+	border-style: solid;
+	float : left;
+	width : 24%;
+	height : 70%;
+	
+}
+
+.projet {
+	float : left;
+	width : 400px;
+	
+	border-width: 5px; 
+	border-style: solid;
+	border-color: #48b9c7;
+	font-color: #ffffff;
+	background-color: #fffff;
+}
+
+
+
+
