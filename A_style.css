@@ -1,0 +1,208 @@
+@CHARSET "UTF-8";
+
+/*
+* bleu : 48b9c7;
+* jaune : #fdb515;
+* gris: #B4B3B1;
+* rouge: #ee3124;
+*/
+
+/* Mise en forme générale */
+body{
+	margin: 0 0;
+	padding: 0 0;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+}
+.bold{
+	font-weight: bold;
+}
+h2{
+	padding: 0 0;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+h3, h4{
+	padding: 0 0;
+	margin: 0 0;
+}
+p{
+	padding: 0 0;
+	margin: 0 0;
+}
+
+
+/* HEADER */
+header{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: #000000;
+	display: table;
+}
+header #header_content{
+	margin: 0 0;
+	padding: 0 0;
+	color: white;
+	display: table-cell;
+	min-width: 100%;
+}
+header img{
+	margin:0 0;
+	padding: 0 0;
+	display: inline-block;
+	vertical-align: middle;
+}
+header #site_name{
+	padding: 0 0;
+	margin: 0 0;
+	display: inline-block;
+	text-align: center;
+}
+header #header_menu{
+	margin: 0 0;
+	padding: 0 0;
+	display: table-cell;
+	vertical-align: bottom;
+	min-width: 350px;
+}
+header #header_menu #button{
+	display: table-cell;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 8px 8px 0px 0px;
+}
+header #header_menu a{
+	vertical-align: middle;
+	display: table-cell;
+	height: 45px;
+	width: 110px;
+	color: #000000;
+	border-right: solid 0.5px #B4B3B1;
+	text-decoration: none;
+}
+header #header_menu a:hover{
+	background-color: #48b9c7;
+	color: #000000;
+}
+header #header_menu a:first-child{
+	border-radius: 8px 0 0 0;
+}
+header #header_menu a:last-child{
+	border-right: none;
+	border-radius: 0 8px 0 0;
+}
+
+
+
+/* MENU */
+#menu{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 2px;
+}
+#menu ul{
+	height: 50px;
+	margin: 0 0;
+	padding: 0 0;
+	background-color: #000000;
+	text-align: right;
+	padding-right: 17px;
+}
+#menu li{
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: middle;
+	text-align: center;
+}
+#menu li a{
+	vertical-align: middle;
+	display: table-cell;
+	color: #ffffff;
+	height: 50px;
+	min-width: 120px;
+	text-decoration: none;
+}
+#menu li a:hover{
+	background-color: #fdb515;
+	color: black;
+}
+
+#menu li form{
+	display: table-cell;
+	height: 50px;
+	vertical-align: middle;
+	width: 100%;
+}
+#menu li form input[type="text"]{
+	/* height: 35px; */
+	padding: 10px 10px;
+}
+#menu li form input[type="submit"]{
+	height: 35px;
+	border: none;
+	border-radius: 0 0
+}
+
+
+
+article{
+	display: table;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 0 0
+}
+
+/* NEWS */
+#mes_infos{
+	background-color: #48b9c7;
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+#mes_infos a{
+	color: #ffffff;
+	text-decoration: none;
+}
+#mes_infos a:hover{
+	
+}
+#mes_infos p{
+	padding: 0 0;
+	margin: 0 0;
+}
+#indicateur{
+	margin-bottom: 10px;
+}
+
+/* HOME_PROJET_CONTENT */
+#home_projects_content{
+	margin-top: 10px;
+	display: table;
+}
+/* MES PROJETS */
+#mes_projets{
+	background-color: #fdb515;
+	display: table-cell;
+	width: 100%;
+	text-align: justify;
+	padding: 10px 15px;
+}
+.home_bloc_projet{
+	width: 270px;
+	display: inline-block;
+	background-color: #ffffff;
+	margin-bottom: 15px;
+	padding: 5px 10px;
+}
+.projet_desc{
+	font-size: 12px;
+}
+/* PROPOSITION DE PROJETS */
+#propo_projets_content{
+	padding-left: 10px;
+}
+#propo_projets{
+	min-width: 340px;
+	background-color: #ee3124;
+	display: table-cell;
+	padding: 10px 15px;
+}
