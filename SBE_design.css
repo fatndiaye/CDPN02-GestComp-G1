@@ -1,0 +1,161 @@
+body 
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000000;
+}
+
+a 
+{
+	text-decoration: none;
+}
+
+.centre
+{
+	position: relative;
+	width: 75%;
+	height: 100%;
+	margin:0 auto;
+}
+
+
+#header
+{
+	background-color: #000000;
+	min-width: 100%;	
+	height: 120px;
+	color: #FFFFFF;
+}
+
+
+#logo
+{
+	float: left;
+	margin: 15px 0px 15px 0px;
+}
+
+#titre
+{
+	float: left;
+	font-size: 24px;
+	padding: 50px 0px 0px 25px;
+	
+}
+
+#compte
+{
+	position: absolute;
+	bottom: 5px;
+	right: 0px;
+	
+}
+
+#compte ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#compte a
+{
+    display: block;
+    min-width: 10px;
+    color: #48B9C7;
+    text-decoration: none;
+    text-align: center;
+}
+
+#compte a:hover
+{
+    color: #FDB515;
+}
+
+#compte li
+{
+    float: left;
+    margin-right: 6px;
+}
+
+#menu
+{
+	background-color: #2A2A2A;
+	min-height: 40px;	
+	color: #FFFFFF;
+}
+
+#menu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#menu a
+{
+    display: block;
+    min-width: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#menu li
+{
+    float: left;
+    margin-right: 1px;
+    padding: 0px 5px 0px 5px;
+    line-height: 40px;
+	background-color: #2A2A2A;
+}
+#menu li:hover
+{
+    background-color: #000000;
+}
+
+#contenu
+{
+	color: #000000;
+}
+
+#contenu a
+{
+	color: #48B9C7;
+}
+
+#contenu a:hover
+{
+	color: #FDB515;
+}
+
+.mesDiv
+{
+	border: #48B9C7;
+	border-style: outset;
+	border-width: 5px;
+	padding: 1.5%;
+}
+
+.petit
+{
+	font-size: 12px;
+}
+
+#infos
+{
+	margin-bottom: 10px;
+}
+
+#projets
+{
+	float: left;
+	width: 60%;
+	
+}
+
+#projetsProp
+{
+	float: right;
+	width: 30%;
+}
