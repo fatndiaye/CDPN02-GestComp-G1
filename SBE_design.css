@@ -107,8 +107,8 @@ a
     margin-right: 1px;
     padding: 0px 5px 0px 5px;
     line-height: 40px;
-	background-color: #2A2A2A;
 }
+
 #menu li:hover
 {
     background-color: #000000;
@@ -127,6 +127,19 @@ a
 #contenu a:hover
 {
 	color: #FDB515;
+}
+
+#contenu ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#contenu li
+{
+    margin-right: 1px;
+    padding: 5px;
 }
 
 .mesDiv
@@ -151,11 +164,98 @@ a
 {
 	float: left;
 	width: 60%;
+	/*background-color: #48B9C7;*/
 	
 }
+
+
+#projets a
+{
+    display: block;
+    min-width: 10px;
+    text-decoration: none;
+}
+
+
+#projets li:hover
+{
+    background-color: #48B9C7;
+    color: #FFFFFF;
+}
+
+#projets li:hover a
+{
+    color: #FFFFFF;
+}
+
+.divProjet, .divCProjet
+{
+	float: left;
+	width: 40%;
+	margin-right: 5%;
+	margin-bottom: 5px;
+	border-style: solid;
+	border-color: #FDB515;
+	padding: 1%;
+	background-color: #FFFFFF;
+}
+
+.divCProjet
+{
+	border-color: #EE3124;
+}
+
 
 #projetsProp
 {
 	float: right;
-	width: 30%;
+	width: 29%;
+}
+
+
+
+#projetsProp a
+{
+    display: block;
+    min-width: 10px;
+    text-decoration: none;
+}
+
+#projetsProp li:hover
+{
+    background-color: #48B9C7;
+    color: #FFFFFF;
+}
+
+#projetsProp li:hover a
+{
+    color: #FFFFFF;
+}
+
+#overfooter
+{
+	clear: both;
+}
+#footer
+{
+	
+	width: 100%;
+	background-color: #000000;
+	color: #FFFFFF;
+	min-height: 30px;
+	margin-top: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#footer a
+{
+    min-width: 10px;
+    color: #48B9C7;
+    text-decoration: none;
+}
+
+#footer a:hover
+{
+    color: #FDB515;
 }

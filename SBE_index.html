@@ -1,6 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="author" content="Sarah Berry">
@@ -39,27 +38,50 @@
         <div id="contenu" class="centre"> 
         	<h1>Titre page</h1>
         	<br />
-        	<div id="infos" class="mesDiv"><h2>Mes informations</h2>J'ai 3 projets en cours et 17 tâches assignées.<br /><br />
- 
-				*28-06-2013* : Le statut de votre projet Développement d'un outil d'analyse est passé à 'Mise en production'.<br />
-				*07-06-2013* : Le modérateur [S.LOUVEL] a modifié ma compétence Intégration Web-design (HTML5 / CSS3).<br />
-				*17-05-2013* : Le Chef de projet [A.LORENT] vous a assigné 3 nouvelles tâches sur le projet Développement d'un outil d'analyse.<br /><br />
+        	<div id="infos" class="mesDiv"><h3>Mes informations :</h3>J'ai <a href="#">3 projets</a> en cours et <a href="#">17 tâches</a> assignées.<br /><br />
+				<ul>
+			        <li>28-06-2013 : Le statut de votre projet Développement d'un outil d'analyse est passé à 'Mise en production'.</li>
+					<li>07-06-2013 : Le modérateur [S.LOUVEL] a modifié ma compétence Intégration Web-design (HTML5 / CSS3).</li>
+					<li>17-05-2013 : Le Chef de projet [A.LORENT] vous a assigné <a href="#">3 nouvelles tâches</a> sur le projet <a href="#">Développement d'un outil d'analyse</a>.</li><br />
+				</ul>
 				<span class="petit"><a href="#">Voir + de notifications</a></span>
 			</div>
-        	<div id="projets" class="mesDiv"><h2>Mes projets</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquam leo scelerisque tempus molestie. In et libero scelerisque, 
-	        	varius enim ut, egestas eros. Etiam aliquet ac nisl nec sagittis. Duis at rutrum mi. Donec laoreet mauris enim, quis consequat 
-	        	risus egestas a. Nam non sapien id sapien volutpat pellentesque. Nunc volutpat tortor ligula, sed pellentesque massa auctor ut.</p> 
-	        	<p>Duis ut velit sit amet lorem sagittis egestas quis et tortor. Quisque nibh nisl, consectetur vehicula sagittis nec, rutrum in justo. 
-	        	Pellentesque luctus vel purus eu interdum. Nullam luctus, diam et posuere bibendum, neque ligula aliquam lectus, sit amet vestibulum 
-	        	mi justo ac mi. In leo nunc, vestibulum et mollis vitae, scelerisque a ante. Duis mollis ligula quis massa placerat tempus. Vivamus 
-	        	porttitor velit vitae mi tempor, in vehicula arcu tincidunt. Duis vel urna sit amet orci venenatis malesuada sit amet ut mauris. 
-	        	Donec commodo elementum eros, et facilisis libero dapibus ac.</p></div>
-        	<div id="projetsProp" class="mesDiv"><h2>Proposition de projets</h2>
-        		Voici une sélection de 5 projets qui pourraient vous intéresser :<br />
+        	<div id="projets" class="mesDiv"><h3>Mes projets :</h3>
+        		<div class="divCProjet"><h4>Développement d'un outil d'analyse</h4>
+					<img src="img/imgProj.png" /><br />
+					Description rapide<br />
+		        	<ul>
+				        <li><a href="#">Tâche 1</a></li>
+				        <li><a href="#">Tâche 2</a></li>
+				        <li><a href="#">Tâche 3</a></li>
+		    		</ul>
+		    	</div>
+	    		<div class="divCProjet"><h4>Développement d'un outil d'analyse</h4>
+					<img src="img/imgProj.png" /><br />
+					Description rapide<br />
+		        	<ul>
+				        <li><a href="#">Tâche 1</a></li>
+				        <li><a href="#">Tâche 2</a></li>
+				        <li><a href="#">Tâche 3</a></li>
+		    		</ul>
+		    	</div>
+	    		<div class="divProjet"><h4>Développement d'un outil d'analyse</h4>
+					<img src="img/imgProj.png" /><br />
+					Description rapide<br />
+		        	<ul>
+				        <li><a href="#">Tâche 1</a></li>
+				        <li><a href="#">Tâche 2</a></li>
+				        <li><a href="#">Tâche 3</a></li>
+		    		</ul>
+		    	</div>        		
+			</div>
+			
+        	<div id="projetsProp" class="mesDiv"><h3>Proposition de projets :</h3>
+        		Voici une sélection de 5 projets qui pourraient vous intéresser :<br /><br />
 	        	<ul>
 			        <li>
-			        	<a href="#">Conception d'un site communautaire</a><br/>
-			        	<span class="petit">info complémentaire</span>
+			        	<a href="#">Conception d'un site communautaire<br />
+			        	<span class="petit">info complémentaire</span></a><br/>
 			        </li>
 			        <li><a href="#">Développement d'un logiciel de gestion administrative</a></li>
 			        <li><a href="#">Développement d'un module de mailing</a></li>
@@ -68,6 +90,11 @@
 	    		</ul>
         	</div>
         </div>
-        
+        <div id="overfooter"> </div>
+        <div id="footer">
+        	<div class="centre">
+        		<a href="#">Mentions légales</a> | <a href="#">Contact</a> | <a href="http://www.imie-ecole-informatique.fr/" target="_blank">Site Officiel IMIE</a>
+        	</div>
+        </div>
     </body>
 </html>
